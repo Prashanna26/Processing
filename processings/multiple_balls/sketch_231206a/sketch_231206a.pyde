@@ -111,5 +111,40 @@
 #             j+=1
 #         i+=1
 #         y+=275
+
+# Q6. SnowFlakes animation
+# snowflake = []
+# class Snowflakes:
+#     def __init__(self, x, y, sizes, speed):
+#         self.x = x
+#         self.y = y
+#         self.sizes = sizes
+#         self.speed = speed
+        
+#     def update(self):
+#         self.y += self.speed
+#         gravity = 0.01
+#         self.speed  += gravity 
+        
+#         if self.y > height:
+#             self.y = random(-200,-100)
+#             self.speed = random(1,15)
+        
+#     def display(self):
+#         noStroke()
+#         fill(255)
+#         ellipse(self.x,self.y,self.sizes,self.speed)
+        
+# def setup():
+#     size(600,600)
+#     for i in range(100):
+#         snowflake.append(Snowflakes(random(width),random(-200,-100),random(1, 5),random(1,15)))
+    
+# def draw():
+#     background(0)
+#     for flakes in snowflake:
+#         flakes.display()
+#         flakes.update()
+
             
             
