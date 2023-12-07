@@ -146,5 +146,35 @@
 #         flakes.display()
 #         flakes.update()
 
+#Q6. DVD PLAYER
+# x = 300
+# y = 300
+# x_speed = 2
+# y_speed = 1
+# text_color = color (255, 255, 255)  # Initial text color (yellow)
+
+# def setup():
+#     size(600, 600)
+
+# def draw():
+#     global x, y, x_speed, y_speed, text_color
+
+#     background(0)
+
+#     fill(text_color)
+#     textSize(60)
+#     text("DVD", x, y)
+
+#     x += x_speed
+#     y += y_speed
+
+#     # Check boundaries and make the text bounce
+#     if x >= width - 100 or x <= 10:
+#         x_speed *= -1
+#         text_color = color(int(random(50, 255)), int(random(50, 255)), int(random(50, 255)))
+
+#     if y >= height - 20 or y <= 40:
+#         y_speed *= -1
+#         text_color = color(int(random(50, 255)), int(random(50, 255)), int(random(50, 255)))
             
             
